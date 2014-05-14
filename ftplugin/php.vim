@@ -50,9 +50,6 @@ endif
 if (!exists('php_sync_method'))
     let php_sync_method = -1
 endif
-if (!exists('php_folding'))
-   let php_folding = 1  "to enable folding for classes and functions
-endif
 
 " Section: variable init calls {{{2
 call s:InitVariable("g:load_doxygen_syntax", 1)
