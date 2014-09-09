@@ -69,6 +69,7 @@ setlocal errorformat=%m\ in\ %f\ on\ line\ %l
 " Switch syntax highlighting on, if it was not
 if !exists("g:syntax_on") | syntax on | endif
 
+setlocal iskeyword=@,48-57,_,192-255
 "setlocal keywordprg=pman " Use pman for manual pages
 
 " }}} Settings
